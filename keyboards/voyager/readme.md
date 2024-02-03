@@ -24,7 +24,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 ### Indicator LEDs
 
-There are 4 functions for enabling and disabling the LEDs on the side of the boards. The functions are `STATUS_LED_1(bool)` through `STATUS_LED_4(bool)`, with the first LED being the top LED (red) on the left hand, and the fourth LED being the bottom LED (green) on the right side. 
+There are 4 functions for enabling and disabling the LEDs on the side of the boards. The functions are `STATUS_LED_1(bool)` through `STATUS_LED_4(bool)`, with the first LED being the top LED (red) on the left side, and the fourth LED being the bottom LED (green) on the right side. 
 
 By default, the Indicator LEDs are used to indicate the layer state for the keyboard.  If you wish to change this (and indicate caps/num/scroll lock status instead), then define `VOYAGER_USER_LEDS` in your `config.h` file. 
 
